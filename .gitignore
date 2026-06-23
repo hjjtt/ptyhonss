@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.suo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude / AI tools
+.claude/
+.playwright-mcp/
+
+# Data & output (runtime artifacts)
+data/*.db
+data/raw/*.json
+logs/
+output/charts/*.png
+output/*.xlsx
+output/*.xlxs
+
+# Archives & binaries
+*.zip
+*.docx
+
+# Secrets
+.env
+*.key
+*.pem
